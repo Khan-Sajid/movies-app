@@ -1,0 +1,25 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50px;
+  z-index: 100;
+  button {
+    color: #fff;
+    background-color: rgb(60, 60, 237);
+    border: none;
+    height: 100%;
+    font-weight: 600;
+    cursor: pointer;
+    &:first-child {
+      border-right: 1px solid #fff;
+    }
+  }
+  @media (min-width: 768px) {
+    width: 500px;
+    transform: translate(calc(50vw - 250px), 0);
+  }
+}

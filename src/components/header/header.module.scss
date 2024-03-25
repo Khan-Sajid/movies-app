@@ -1,0 +1,28 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  box-shadow: black;
+  font-weight: 600;
+  border-bottom: 1px solid #0f0f0f;
+  background-color: #fff;
+  z-index: 100;
+  span {
+    flex: 1;
+    padding: 0 20px;
+    cursor: pointer;
+  }
+  button {
+    color: #fff;
+    background-color: rgb(60, 60, 237);
+    border: none;
+    height: 100%;
+    padding: 0 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,12 @@
+.cardsContainer {
+  padding: 20px;
+  background-color: aliceblue;
+  min-height: 150dvh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 80px;
+  h2 {
+    font-size: 20px;
+  }
+}
